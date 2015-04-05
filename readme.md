@@ -10,9 +10,9 @@ A Lua to Objective-C bridge
 
 ###Usage
 
-  #import "LuaKit.h"
-  LuaState *luaState = [LuaState new];
-  [luaState runChunk:@"print('hello')" error:nil];
+    #import "LuaKit.h"
+    LuaState *luaState = [LuaState new];
+    [luaState runChunk:@"print('hello')" error:nil];
 
 See Demo project with samples of creating buttons and a table propagation: (https://github.com/kolyvan/luakit/blob/master/Demo/lua/demo.lua)
 
