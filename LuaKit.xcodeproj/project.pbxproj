@@ -66,8 +66,8 @@
 		F918D3BF1AD118B0006E8FF3 /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = F918D36D1AD118AF006E8FF3 /* lopcodes.c */; };
 		F918D3C01AD118B0006E8FF3 /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = F918D36D1AD118AF006E8FF3 /* lopcodes.c */; };
 		F918D3C11AD118B0006E8FF3 /* lopcodes.h in Headers */ = {isa = PBXBuildFile; fileRef = F918D36E1AD118AF006E8FF3 /* lopcodes.h */; };
-		F918D3C21AD118B0006E8FF3 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = F918D36F1AD118AF006E8FF3 /* loslib.c */; };
-		F918D3C31AD118B0006E8FF3 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = F918D36F1AD118AF006E8FF3 /* loslib.c */; };
+		F918D3C21AD118B0006E8FF3 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = F918D36F1AD118AF006E8FF3 /* loslib.c */; settings = {COMPILER_FLAGS = "-Wno-deprecated-declarations"; }; };
+		F918D3C31AD118B0006E8FF3 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = F918D36F1AD118AF006E8FF3 /* loslib.c */; settings = {COMPILER_FLAGS = "-Wno-deprecated-declarations"; }; };
 		F918D3C41AD118B0006E8FF3 /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = F918D3701AD118AF006E8FF3 /* lparser.c */; };
 		F918D3C51AD118B0006E8FF3 /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = F918D3701AD118AF006E8FF3 /* lparser.c */; };
 		F918D3C61AD118B0006E8FF3 /* lparser.h in Headers */ = {isa = PBXBuildFile; fileRef = F918D3711AD118AF006E8FF3 /* lparser.h */; };
@@ -1186,6 +1186,7 @@
 				F918D28C1AD11833006E8FF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F918D2901AD11833006E8FF3 /* Build configuration list for PBXNativeTarget "LuaKitLibTests" */ = {
 			isa = XCConfigurationList;
@@ -1194,6 +1195,7 @@
 				F918D28E1AD11833006E8FF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F918D4451AD11989006E8FF3 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
@@ -1202,6 +1204,7 @@
 				F918D4471AD11989006E8FF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
