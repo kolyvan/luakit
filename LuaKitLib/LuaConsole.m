@@ -537,9 +537,8 @@ typedef enum {
 {
     const BOOL isPhone = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone;
     
-    if (isPhone &&
-        UIInterfaceOrientationIsLandscape([UIApplication sharedApplication].statusBarOrientation))
-    {
+    if (self.traitCollection.verticalSizeClass == UIUserInterfaceSizeClassCompact) {
+        
         _textView.inputAccessoryView = nil;
         
     } else if (!_textView.inputAccessoryView) {
